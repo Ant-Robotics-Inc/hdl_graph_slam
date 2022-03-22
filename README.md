@@ -81,7 +81,7 @@ sudo apt-get install ros-melodic-geodesy ros-melodic-pcl-ros ros-melodic-nmea-ms
 cd catkin_ws/src
 git clone https://github.com/koide3/ndt_omp.git -b melodic
 git clone https://github.com/SMRT-AIST/fast_gicp.git --recursive
-git clone https://github.com/koide3/hdl_graph_slam
+git clone git@github.com:Ant-Robotics-Inc/hdl_graph_slam.git
 
 cd .. && catkin_make -DCMAKE_BUILD_TYPE=Release
 
